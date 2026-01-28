@@ -34,7 +34,11 @@
       "identifier": "com.strafe-eval.app",
       "icon": [
         "icons/icon.ico"
-      ]
+      ],
+      "macOS": {
+        "entitlements": "./entitlements.plist",
+        "minimumSystemVersion": "10.15"
+      }
     }
   }
 }
